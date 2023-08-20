@@ -13,6 +13,7 @@ cliente.enderecos = [
     complemento: "ap 934",
   },
 ];
+
 for (let chave in cliente) {
     let tipo = typeof(cliente[chave]);
     if (tipo !== "object" && tipo !== "function") {
